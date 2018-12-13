@@ -1,0 +1,83 @@
+body
+{
+    width: 1000px;
+    height: 4000px;
+    margin: auto;  
+    background-color: black;  
+    
+     
+}
+.Main
+{
+    width: 1200px;
+    height: 1000px;
+    margin: auto;       
+    position: relative;  
+    display: inline-block;
+    /* background-image: url("./images/palace.jpg"); */
+    /* background-repeat : no-repeat; */
+    /* background-size: contain; */
+}
+.Palace{
+    width: 100%;
+    height :1200px;
+}
+
+.Step
+{
+    width: 1000px;
+    height: 100px;
+    background-color: lightgreen;    
+    position: relative;
+    padding: 1px;    
+    margin: 1px;            
+} 
+.Empty
+{
+    width: 15%;
+    height: 96px;
+    display: inline-block; 
+    border: 2px solid black; 
+}
+.Prince
+{
+    width: 100%;
+    height: 97px;
+    opacity: 0.0;  
+}
+#Show
+{
+    opacity: 1.0;
+}
+
+#H_1,#H_2,#H_3,#H_4,#H_5,#H_6,#H_7,#H_8,#H_9,#H_10,#H_11
+{
+   opacity: 0.0;
+} 
+
+#P_1
+{
+    opacity: 1.0;
+}
+
+/* BUTTON */
+.button
+{
+    width:120px;
+    height:100px;
+    margin : auto;
+    padding : 1px;
+    border : 1 px;
+
+}
+.Input{
+    width: 33%;
+    height: 96px;
+    color: black;
+    font-size: 50px;
+
+}
+
+
+
+
